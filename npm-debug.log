@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Node\\nodejs\\node.exe',
+1 verbose cli   'D:\\Node\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle sx-community@1.0.0~predev: sx-community@1.0.0
+6 silly lifecycle sx-community@1.0.0~predev: no script for predev, continuing
+7 info lifecycle sx-community@1.0.0~dev: sx-community@1.0.0
+8 verbose lifecycle sx-community@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle sx-community@1.0.0~dev: PATH: D:\Node\nodejs\node_modules\npm\bin\node-gyp-bin;E:\shixun\one\zuoye\sx-community\node_modules\.bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Node\nodejs\;D:\Node\npm\;D:\Git\cmd;D:\java\jdk\bin;D:\java\jre\bin;D:\Ruby24-x64\bin;C:\Users\dell-pc\AppData\Roaming\npm;D:\AppServ\Apache2.2\bin;D:\AppServ\php5;D:\AppServ\MySQL\bin;D:\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft VS Code\bin
+10 verbose lifecycle sx-community@1.0.0~dev: CWD: E:\shixun\one\zuoye\sx-community
+11 silly lifecycle sx-community@1.0.0~dev: Args: [ '/d /s /c', 'webpack-dev-server' ]
+12 silly lifecycle sx-community@1.0.0~dev: Returned: code: 3221225786  signal: null
+13 info lifecycle sx-community@1.0.0~dev: Failed to exec dev script
+14 verbose stack Error: sx-community@1.0.0 dev: `webpack-dev-server`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (D:\Node\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\Node\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid sx-community@1.0.0
+16 verbose cwd E:\shixun\one\zuoye\sx-community
+17 error Windows_NT 6.3.9600
+18 error argv "D:\\Node\\nodejs\\node.exe" "D:\\Node\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+19 error node v6.9.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error sx-community@1.0.0 dev: `webpack-dev-server`
+22 error Exit status 3221225786
+23 error Failed at the sx-community@1.0.0 dev script 'webpack-dev-server'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the sx-community package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs sx-community
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls sx-community
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
